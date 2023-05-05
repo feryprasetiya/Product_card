@@ -1,0 +1,51 @@
+body {
+  background-color: antiquewhite;
+}
+
+.card {
+  margin: 8% auto;
+  width: 500px;
+  height: 450px;
+  display: flex;
+}
+
+.left img {
+  width: 250px;
+  height: 450px;
+}
+
+.right {
+  background-color: white;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+.price:before {
+  content: '$';
+}
+
+.disc:before {
+  content: '$';
+}
+
+.disc {
+  margin-left: 10px;
+  color: rgb(44, 46, 45);
+  text-decoration: line-through;
+}
+
+.price {
+  color: rgb(70, 190, 130);
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+.right button {
+  background-color: green;
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
